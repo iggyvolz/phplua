@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": "^8.2",
+        "ext-ffi": "*"
+    },
+    "require-dev": {
+        "nette/tester": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "iggyvolz\\Lua\\": "src/"
+        }
+    },
+    "license": "0BSD"
+}

@@ -1,0 +1,5 @@
+tests/output
+tests/lua.so
+tests/lua.dll
+/vendor
+/.idea
