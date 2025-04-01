@@ -9,7 +9,7 @@ final class LuaString extends LuaValue
     
     public function value(): string
     {
-        $length = FFI::new("uint64_t");
+        $length = $this->lua->lua->new("uint64_t");
         $str = $this->lua->luaCall("lua_tolstring",$this->index, FFI::addr($length));
         return FFI::string($str, $length->cdata);
     }

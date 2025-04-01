@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8854d8b8c9b43192e6c33728178ac71",
+    "content-hash": "106d78dda7bed6cf5ea1c254ab50f5b1",
     "packages": [],
     "packages-dev": [
         {
             "name": "nette/tester",
-            "version": "v2.4.3",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "451f6e97b117797e817446de8d19fe06e54fd33f"
+                "reference": "c11863785779e87b40adebf150364f2e5938c111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/451f6e97b117797e817446de8d19fe06e54fd33f",
-                "reference": "451f6e97b117797e817446de8d19fe06e54fd33f",
+                "url": "https://api.github.com/repos/nette/tester/zipball/c11863785779e87b40adebf150364f2e5938c111",
+                "reference": "c11863785779e87b40adebf150364f2e5938c111",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2 <8.3"
+                "php": "8.0 - 8.4"
             },
             "require-dev": {
                 "ext-simplexml": "*",
@@ -34,7 +34,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -78,20 +78,20 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/tester/issues",
-                "source": "https://github.com/nette/tester/tree/v2.4.3"
+                "source": "https://github.com/nette/tester/tree/v2.5.4"
             },
-            "time": "2022-08-29T16:39:38+00:00"
+            "time": "2024-10-23T23:57:10+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2",
         "ext-ffi": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
